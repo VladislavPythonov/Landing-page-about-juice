@@ -1,0 +1,360 @@
+/* ШРИФТЫ */
+ @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("../шрифты/Montserrat-Medium.ttf");
+} 
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../шрифты/Montserrat-Regular.ttf");
+} 
+
+@font-face {
+    font-family: 'PlayfairDisplay-Medium';
+    src: url("../шрифты/PlayfairDisplay-Medium.ttf");
+} 
+
+
+
+/* задний фон: */
+.background1 {
+    background-color: #282828;
+}
+
+.background2 {
+    background-color: white;
+}
+
+.background3 {
+    background-color: #998431;
+}
+
+body {
+
+  background: linear-gradient(
+    to bottom, 
+    #282828 48%, 
+    #FFFFFF 48% 92%, 
+    #998431 92% 100%);
+}
+
+
+
+
+
+.table111 {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color: #FFFFFF;
+   }
+
+.title1 {
+    text-align: left;
+    font-family: "Montserrat-Medium";
+    color: whitesmoke;
+}
+
+.title2 {
+    text-align: right;
+    font-family: "Montserrat-Medium";
+    color: whitesmoke;
+}
+
+   td {
+    border: 1px solid #C4C4C4;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+   }
+
+.catalog {
+    border-left: none;
+   }
+
+.contacts {
+    border-right: none;
+}
+
+.container {
+    border: 2px solid #C4C4C4;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vw;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: auto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: "PlayfairDisplay-Medium";
+    color: whitesmoke;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.wine1 {
+    text-align: center;
+    padding: 35px;
+}
+
+hr {
+    color: #FFFFFF;
+    width: 20%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+.container1 {
+    border: 1px solid #998431;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+}
+
+.content-with-images {
+    display: flex;
+    width: 100%;
+}
+
+.text-and-images {
+    flex: 1;
+    padding-right: 50px; 
+}
+
+
+.new{
+    font-family: 'Montserrat-Regular';
+}
+
+.h11 {
+    text-align: left;
+    color: #282828;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-family: 'PlayfairDisplay-Medium';
+}
+
+.custom-hr {
+    width: 150px; 
+    height: 1px; 
+    background-color: #282828;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.text2 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat-Regular';
+}
+
+
+/* Таблица */
+
+.table222 {
+    border-collapse: collapse;
+}
+
+.td1 {
+    border-top: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-right: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.tdd1 {
+    border-top: none;
+    border-right: none;
+    font-family: "PlayfairDisplay-Medium";
+    border-bottom: 1px solid #282828;
+}
+
+.td2 {
+    border-top: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-right: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.tdd2 {
+    border-top: none;
+    border-right: none;
+    font-family: "PlayfairDisplay-Medium";
+    border-bottom: 1px solid #282828;
+}
+
+.td3 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    font-family: 'Montserrat-Regular';
+    border-right: 1px solid #282828;
+}
+
+.tdd3 {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    font-family: "PlayfairDisplay-Medium";
+}
+
+
+.text3 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat-Regular';
+}
+
+.text4 {
+    margin-top: 100px;
+    color: #998431;
+    font-family: "Montserrat-Medium";
+}
+
+.ima {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
+
+
+
+
+.table333 {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    color: #FFFFFF;
+    margin-bottom: 1.5%;
+}
+
+
+/* Верхний блок */
+.home {
+    border-left: none;
+    border-right: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.catalog2 {
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.suppliers {
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.collections {
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.tasting {
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.collection {
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.contacts2 {
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat-Regular';
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+/* Нижний блок */
+.boutic {
+    border-left: none;
+    font-family: "Montserrat-Medium";
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.tel {
+    font-family: "Montserrat-Medium";
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.logo {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.lee {
+    border-right: none;
+    font-family: "Montserrat-Medium";
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+
+    font-size: 14px;
+	text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
